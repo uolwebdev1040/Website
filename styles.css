@@ -1,0 +1,202 @@
+/*Common CSS-------------------------------------*/
+
+body{
+    background: white;
+    height: 100%;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 2em;
+    color: rgb(33, 86, 199);
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    font-size: 20px;;
+    color: rebeccapurple;
+}
+
+h3{
+    font-family: 'Times New Roman', arial, sans_serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    font-size: 17px;;
+    color: black;
+}
+p{
+  font-family: 'blackpearlblackpearl', arial, serif;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-align:center;
+  font-size: 20px;;
+  color:rgb(212, 134, 16);
+  }
+  
+
+/*Header CSS---------------------------------------*/
+
+header { grid-area: header; }
+
+
+.logo{
+  text-align:center;
+  width:100%;
+  font-size:15px;
+  
+}
+
+
+
+
+/*Nav CSS-------------------------------------------*/
+
+.page_link { grid-area: nav; }
+
+.page_link{
+    background:rgba(116, 202, 230);
+    border-radius: 10px;
+    font-size: large;
+    border: 1px solid white;
+    text-align:center;
+    width: 100%;
+       
+}
+
+.home_banner{
+  text-align:center;
+}
+
+
+.rides_section_home_page { grid-area: intro; }
+.kids_rides_short { grid-area: main; }
+.adults_rides_short{ grid-area: main; }
+
+
+.kids_rides_short{
+  background-color: rgb(238, 168, 203);
+  width: 100%;
+
+}
+
+.adults_rides_short{
+  background-color: rgb(238, 168, 203);
+  width: 100%;
+}
+
+.kids_rides_short
+.adults_rides_short
+  table {
+    border-collapse: collapse;
+    border: 2px solid rgb(114, 219, 252);
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+  }
+  
+  th {
+    background-color: rgb(114, 219, 252);
+  }
+  
+  td {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color:white;
+    font-size: large;
+  }
+  
+  .kids_rides_short button{
+    background-color:rgb(228, 186, 123);
+    width: 25%;
+    float: right;
+   
+  }
+  .adults_rides_short button{
+    background-color:rgb(228, 186, 123);
+    width: 25%;
+    float: right;
+  }
+
+.events{
+  background-color:rgb(167, 224, 238);
+}
+
+
+  /*Book your trip.html CSS-------------------------------------*/
+
+.quick_ticket_info_section{
+  background-color:rgb(230, 214, 216);
+  text-align: center;
+
+}
+.quick_ticket_info_section button{
+    background:rgb(0, 206, 209);
+    text-align: center;
+    color:black
+}
+
+
+
+
+  /*See rides &attractions.html CSS-----------------------------------*/
+
+  .rides{
+    background-color:rgb(238, 167, 206);
+   
+  }
+  .rides button{
+    width: 25%;
+    float: middle;
+  }
+  
+  .rides th{
+    font-family: "blackpearlblackpearl", Arial, sans-serif;
+    text-align: center;
+
+  }
+
+  .rides  td{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+  }
+  
+ 
+  
+  
+  
+  /*footer*/
+  footer { grid-area: footer; }
+
+
+footer
+{
+    background:gray;
+    text-align: center;
+    width:100%;
+    padding: 10px;
+   
+}
+
+footer  p
+{
+    color: rgb(243, 243, 226);
+    text-align: center;
+    margin: auto;
+    width:99%;
+    
+}
+
+footer.page_link
+{
+    margin: auto;
+    text-align: center;
+}
+
+
