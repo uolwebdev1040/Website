@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+        <!--Head section with configurable metadata and other options-->
+        <title>Wonderous Lands Theme Park</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="The most exotic theme park ever built, located in Toronto, Ontario, Canada, with hundreds of rides to go on and have a blast with your friends or family.">
+        <meta name="author" content="Wonderous Theme Parks LLC">
+        <meta name="refresh" content="600">
+        <meta name="keywords" content="Fun, Theme, Park, Rides, Roller, Coaster, Water, Thriller, Exciting">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="apple-touch-icon" sizes="180x180" href="media/image/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="media/image/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="media/image/favicon/favicon-16x16.png">
+        <link rel="manifest" href="media/image/favicon/site.webmanifest">
+
+        <!-- no text link line -->
+        <style>
+            a{text-decoration: none;}
+        </style>
+
+	<link rel="stylesheet" type="text/css" href="StyleSheet/style.css">
+	</head>
+    
+    <body>
+        <header>
+        <!--Header with easy to select links to other pages and the logo-->
+            <div class="logo">
+                <figure class="logo">
+                    <img class = "logoIMG" src="media/image/logo/YayNoBG.png" alt="Logo of the theme park">
+                </figure>
+            <div class="short_description_header">
+                <p>The most exotic theme park ever built, located in Toronto, Ontario, Canada, with hundreds of rides to go on and have a blast with your friends or family.</p>
+            </div>
+            
+            <!--Links to the two other pages for the website-->
+            <a href = "index.html">
+                <div class='page_link'>
+                    Back To Home 
+                </div>
+            </a>
+            <a href = "attractions.html">
+                <div class='page_link'>
+                    See Rides & Attractions
+                </div>
+            </a>
+            </div>
+        </header>
+        <br />
+        <br />
+        <hr class = "top" />
+
+        <div id = "vid">
+            <video title = "Video of the theme park" autoplay muted loop>
+                <source src="media/video/intro.mp4" type="video/mp4" />
+            </video>
+        </div>
+    
+            <div class="quick_ticket_info_section">
+            <h1>Buy tickets & services</h1>
+            <!--Preview of ticket info -->
+            <table id = "book">
+                <tr>
+                <!--Row one, table headers-->
+                    <th>
+                        <div class="adult_ticket_preview">
+                            Adult Standard
+                        </div>
+                    </th>
+                    <th>
+                        <div class="kids_ticket_preview">
+                            Kids Standard
+                        </div>
+                    </th>
+                    <th>
+                        <div class="season_ticket_preview">
+                            Season Pass
+                        </div>
+                    </th>
+                    <th>
+                        <div class="family_ticket_preview">
+                            Family Package
+                        </div>
+                    </th>
+                </tr>
+                <tr>
+                <!--Row two, further information and call to actions-->
+                    <td>
+                        <div class="adult_ticket_preview">
+                            <p>Adult Standard Package includes:</p>
+                                <ol>
+                                    <li>Full access to the park</li>
+                                    <li>A voucher for food and drinks worth 5$</li>
+                                    <li>Access to ONE Show</li>
+                                </ol>
+                                <br>
+                                <h2>Price: 15$</h2>
+                                <br />
+                                <button class = "Reg">Add to cart</button>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="kids_ticket_preview">
+                            <p>Kids Standard Package includes:</p>
+                                <ol>
+                                    <li>Access to the park's kid friendly rides</li>
+                                    <li>Discounted rate</li>
+                                    <li>Access to ONE Show</li>
+                                </ol>
+                                <br>
+                                <h2>Price: 7.5$</h2>
+                                <br />
+                                <button class = "Reg">Add to cart</button>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="season_ticket_preview">
+                            <p>Season Pass Package includes:</p>
+                                <ol>
+                                    <li>A pass for 1 Full year from the time of purchase</li>
+                                    <li>Full access to the park and ALL shows</li>
+                                    <li>Queue skip</li>
+                                </ol>
+                                <br>
+                                <h2>Price: 50$</h2>
+                                <br />
+                                <button class = "Reg">Add to cart</button>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="family_ticket_preview">
+                            <p>Family Package includes:</p>
+                                <ol>
+                                    <li>Adult Standard Package - 2</li>
+                                    <li>Kids Standard Package - 2</li>
+                                    <li>Access to ONE Show for all party members</li>
+                                </ol>
+                                <br>
+                                <h2>Price: 30$</h2>
+                                <br />
+                                <button class = "Reg">Add to cart</button>                           
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <br />
+        <br />
+        <button class="Reg">Check out</button>
+    
+    
+        <footer>
+            <!--Final section, footer with additional relevant links (repeat of header) along with contact information for press and regulatory bodies.-->
+                <p>Galaxy Valley LLC</p>
+                <p><a href="mailto:mail@galaxyvalley.com">mail@galaxyvalley.com</a></p>
+                <div class='footer_link'>
+                    <a href=index.html>Home Page</a> 
+                </div>
+                <div class='footer_link'>
+                    <a href=attractions.html>Learn More</a>
+                </div>
+        </footer>
+    </body>
+</html>
