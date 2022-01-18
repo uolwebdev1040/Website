@@ -14,7 +14,7 @@
 }
 /*Common CSS-------------------------------------*/
 body{
-    background: rgb(232, 232, 235);
+    background: #EDEDED;
 }
 
 html{
@@ -184,7 +184,7 @@ header { grid-area: header; }
 }
 
 #events{
-  background-color:rgba(255, 118, 127, 0.85);
+  background-color:rgba(167, 224, 238);
   width: 90%;
   margin: auto;
   padding: 15px;
@@ -199,7 +199,7 @@ header { grid-area: header; }
 
 
 .Reg{
-  background-color: rgba(255,255,255,0.5); 
+  background-color: rgba(#008ecc); 
   border: none;
   color: white;
   padding: 15px 32px;
@@ -222,14 +222,14 @@ header { grid-area: header; }
 
 
 .quick_ticket_info_section{
- background-color:rgba(175, 250, 175, 0.65);
+ background-color:rgba(230, 214, 214, 216);
   text-align: center;
   position: relative;
   top: 10px;
   border-radius: 10px;
 }
 .quick_ticket_info_section button{
-   background-color: rgba(255,255,255,0.5); 
+   background-color: rgba(0, 206, 209); 
     text-align: center;
     color:black
 }
@@ -284,7 +284,7 @@ div#vid video:hover{
   #rides{
     position: relative;
     top: 40px;
-    background-color:rgba(238, 167, 206, 0.7);
+    background-color:rgba(167,224,238);
     padding: 15px;
     border-radius: 10px;
   }
