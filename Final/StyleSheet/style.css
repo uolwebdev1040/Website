@@ -14,8 +14,7 @@
 }
 /*Common CSS-------------------------------------*/
 body{
-    background: rgb(0,14,48);
-    background-image: url("https://www.nicepng.com/png/full/192-1925972_starfield-snow.png");
+    background: rgb(232, 232, 235);
 }
 
 html{
@@ -55,7 +54,7 @@ p{
   font-weight: normal;
   text-align:center;
   font-size: 20px;;
-  color:rgb(239,211,255);
+  color:rgb(83, 4, 129);
   padding-bottom: 15px;
   }
 
