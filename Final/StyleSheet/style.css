@@ -222,7 +222,10 @@ header { grid-area: header; }
 
 
 .quick_ticket_info_section{
- background-color:rgba(230, 214, 214, 216);
+  background-color:rgba(167,224,238);
+  width: 70%;
+  padding: 15px;
+  margin: auto;
   text-align: center;
   position: relative;
   top: 10px;
