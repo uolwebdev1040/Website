@@ -28,14 +28,14 @@ h1{
     font-weight: normal;
     font-size: 2em;
     text-align: center;
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(88, 6, 95, 0.8);
 }
 
 h2{
     font-family: Raleway, Times, serif;
     font-style: italic;
     font-size: 20px;;
-    color: rgb(247,244,160);
+    color: rgb(88, 6, 95, 0.8);
     text-align: center;
 }
 
@@ -45,7 +45,7 @@ h3{
     font-variant: normal;
     font-weight: bold;
     font-size: 17px;
-    color: rgb(255);
+    color: rgb(0);
 }
 p{
   font-family: 'Raleway', arial, serif;
@@ -61,7 +61,7 @@ p{
 li{
   font-family: 'Raleway', arial, serif;
   font-size: 16px;
-  color: rgb(255,255,255);
+  color: rgb(0, 0, 0);
   padding-bottom: 15px;
 }
 
@@ -69,7 +69,7 @@ th{
   font-family: 'Raleway';
   font-style: italic;
   font-size: 20px;
-  color:rgba(255,255,255, 0.75);
+  color:rgba(0, 0, 0, 0.75);
     
 }
 
@@ -199,9 +199,9 @@ header { grid-area: header; }
 
 
 .Reg{
-  background-color: rgba(#008ecc); 
+  background-color: #c497cf; 
   border: none;
-  color: white;
+  color: rgb(0, 0, 0);
   padding: 15px 32px;
   display: block;
   font-size: 16px;
@@ -229,7 +229,7 @@ header { grid-area: header; }
   border-radius: 10px;
 }
 .quick_ticket_info_section button{
-   background-color: rgba(0, 206, 209); 
+   background-color: #c497cf; 
     text-align: center;
     color:black
 }
@@ -334,7 +334,7 @@ div.tooltip img{
 
 footer
 {
-    background:rgba(116,202,230,0.7);
+    background:rgba(116, 207, 230, 0.356);
     text-align: center;
     padding: 10px;
    
@@ -342,7 +342,7 @@ footer
 
 footer  p
 {
-    color: rgb(243, 243, 226);
+    color: rgb(0, 0, 0);
     text-align: center;
     margin: auto;
     width:99%;
@@ -353,5 +353,5 @@ footer.footer_link
 {
     margin: auto;
     text-align: center;
-    color: rgb(243, 243, 226);
+    color: rgb(0, 0, 0);
 }
